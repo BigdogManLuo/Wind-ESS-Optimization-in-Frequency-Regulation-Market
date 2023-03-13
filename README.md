@@ -1,5 +1,6 @@
 # Wind-ESS-Optimization-in-Frequency-Regulation-Market
 Code implementation of “Flexible Coordination of Wind Generators and Energy Storages in joint Energy and Frequency Regulation Market“
+![](https://img.shields.io/badge/python-3.9.13-brightgreen)  ![](https://img.shields.io/badge/numba-0.55.1-blue)  ![](https://img.shields.io/badge/license-MIT-orange)
 
 <br>
 
