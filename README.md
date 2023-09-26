@@ -21,7 +21,7 @@ pip install numba
 ...
 ```
 
-# Reference
+## Reference
 If you find this work useful and use it in your research, please consider citing our paper:
 ```bibtex
 @misc{@INPROCEEDINGS{10140535,
