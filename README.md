@@ -1,14 +1,14 @@
 # Wind-ESS-Optimization-in-Frequency-Regulation-Market
-Code implementation of “Flexible Coordination of Wind Generators and Energy Storages in joint Energy and Frequency Regulation Market“
-![](https://img.shields.io/badge/python-3.9.13-brightgreen)  ![](https://img.shields.io/badge/numba-0.55.1-blue)  ![](https://img.shields.io/badge/license-MIT-orange)
+![](https://img.shields.io/badge/python-3.9.13-brightgreen)  ![](https://img.shields.io/badge/numba-0.55.1-blue)  ![](https://img.shields.io/badge/license-MIT-orange) <br>
+Code implementation of [Flexible Coordination of Wind Generators and Energy Storages in joint Energy and Frequency Regulation Market](https://ieeexplore.ieee.org/document/10140535), where we elaborate on our methodology, implementation details, and experimental results.
 
-<br>
 
-## Installation
-### Prerequisites
+## Requirements
 - Python 3.6+
+- Anaconda 23.1.0
 - Numba 0.55.1
-### Installing
+  
+## Installation
 
 1.Clone the repository
 
@@ -18,33 +18,37 @@ git clone https://github.com/BigdogManLuo/Wind-ESS-Optimization-in-Frequency-Reg
 2.Install the required dependencies:
 ```sh
 pip install numba
+...
+```
+
+# Reference
+If you find this work useful and use it in your research, please consider citing our paper:
+```bibtex
+@misc{@INPROCEEDINGS{10140535,
+  author={Pu, Chuanqing and Xiang, Yue and Fan, Feilong and Huan, Jiafei and Deng, Li and Liu, Junyong},
+  booktitle={2023 Panda Forum on Power and Energy (PandaFPE)}, 
+  title={Flexible Coordination of Wind Generators and Energy Storages in Joint Energy and Frequency Regulation Market}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1926-1931},
+  doi={10.1109/PandaFPE57779.2023.10140535}}
+}
 ```
 
 ## Usage
 
-
-The base folder is a basic simulation example, you can run the numerical experiment as follows.
+Run these numerical experiment as follows.
 ```sh
 cd base
 python 01_DP.py
 python 02_RealTimeOpt.py
 ```
 
-However,we recommend to use Spyder IDE to run the code for subsequent observation, debugging and modification.You can follow the steps below:
 
+## Acknowledgement
 
-1.Open the repository in Spyder IDE.
-
-2.In Spyder IDE, execute the code cell by cell to observe and modify the code in real time.
-
-3.Use the Spyder debugger to debug the code if necessary.
-
-Please note that these instructions assume that you have already installed Spyder IDE and have a basic understanding of how to use it.
-
-
-## Maintainers
-
-Thanks to Feilong Fan and Yue Xiang for their guidance in this work
+Thanks to Feilong Fan and Yue Xiang for their guidance in this work.
 
 
 
